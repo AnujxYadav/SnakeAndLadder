@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snakeandladder.HelloController">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="742.0">
+         <image>
+            <Image url="@hippo_board.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="155.0" fitWidth="748.0" layoutX="-3.0" layoutY="490.0">
+         <image>
+            <Image url="@l2.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <ImageView fitHeight="50.0" fitWidth="106.0" layoutX="200.0" layoutY="529.0">
+         <image>
+            <Image url="@you.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="a1" fitHeight="23.0" fitWidth="20.0" layoutX="50.0" layoutY="510.0">
+         <image>
+            <Image url="@avtar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="a2" fitHeight="23.0" fitWidth="20.0" layoutX="75.0" layoutY="510.0">
+         <image>
+            <Image url="@avtar2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dice_image" fitHeight="41.0" fitWidth="82.0" layoutX="329.0" layoutY="530.0">
+         <image>
+            <Image url="@two.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player1" fitHeight="50.0" fitWidth="210.0" layoutX="96.0" layoutY="528.0">
+         <image>
+            <Image url="@player1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player2" fitHeight="50.0" fitWidth="210.0" layoutX="438.0" layoutY="528.0">
+         <image>
+            <Image url="@Player2_dull.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gif_pic" fitHeight="249.0" fitWidth="525.0" layoutX="100.0" layoutY="433.0">
+         <image>
+            <Image url="@dice-gif.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="down_arrow" fitHeight="126.0" fitWidth="72.0" layoutX="335.0" layoutY="370.0">
+         <image>
+            <Image url="@down_arrow.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" layoutX="306.0" layoutY="523.0" mnemonicParsing="false" onAction="#buttonclick" opacity="0.0" prefHeight="60.0" prefWidth="132.0" text="Button" />
+   </children>
+</AnchorPane>
